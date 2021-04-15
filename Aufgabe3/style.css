@@ -10,10 +10,12 @@ h2, p, a, audio {
 }
 
 h1{
-    position: relative;
-    color:red;
+    text-align: center;
+    color: navy;
     left: 40%;
-    z-index: 1;
+    z-index: 10;
+    margin-top: -115px;
+    margin-bottom: 115px;
 }
 
 
@@ -30,6 +32,9 @@ h1{
     font-size: 20px;
 }
 
+#navText {
+   margin-left: 40px;
+}
 
 
 video {
@@ -55,17 +60,25 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #009900;
+    background-color: lightblue;
     text-align: center;
 
 }
 
 #kreis {
-    background-color: #009900;
+    background-color: lightblue;
     width: 400px;
     height: 400px;
     margin: -250px auto auto auto;
     border-radius: 35%;
-    
-    z-index: -1;
+}
+
+body {
+
+        background:
+            linear-gradient(-135deg, rgb(34, 76, 152) 10%, transparent),
+            repeating-linear-gradient(45deg, rgba(34, 76, 152, 1) 0%, rgba(31, 48, 94, 0.6) 5%, transparent 5%, transparent 10%),
+            repeating-linear-gradient(-45deg, rgba(34, 76, 152, 0.4) 0%, rgba(31, 48, 94, 0.5) 5%, transparent 5%, transparent 10%);
+        background-color: rgba(34, 76, 152, 0.25);
+
 }
