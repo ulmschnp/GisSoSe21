@@ -327,7 +327,7 @@ h4 {
 
 
 button {
-    
+    margin-left: 50%;
     background-color: #f7c8ad;
 }
 .rep {
@@ -339,12 +339,7 @@ button {
     color: black;
     opacity: 40%;
 }
-.rep a {
-    text-decoration: none;
-    display: block;
-    font-size: 100%;
-    color: #000000;
-}
+
 
 /* ----------------------------------------------------- Smartphohne Ansicht --------------------------------------------------------*/
 @media (max-width: 600px ){
