@@ -387,12 +387,12 @@ button {
         height: 600px;
         width: 600px;
      }
-     .container li .video{
+     .container .video{
          width: 350px;
          height: auto;
          margin-left: 17%;
      }
-     .container li .image{
+     .container .image{
         width: 350px;
         height: auto;
         margin-left: 17%;
