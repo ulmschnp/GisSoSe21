@@ -26,32 +26,38 @@ h1{
 
 
 
-.navbar {
-    position:relative;
-    padding: 20px;
-    font-size: 20px;
-}
+
 
 .navText {
-   margin-left: 40px;
+    position:absolute;
+    top: 0%;
+    left: 70%;
+    
+
+text-decoration: none;
+
 }
 
-
-video {
-    max-width: 320px;
-    max-height: 240px;
-}
 
 .video {
-    position:relative;
-    top: 10px;
-    left: 40%;
-
+    position: static;
+	padding-bottom: 5%;
+	padding-top: 5%px;
+	height:80%;
+    width: 80%;
+   
+    
+    
+   
 }
+
+
 .logo {
     position: relative;
     top: 20px;
     left: 40%;
+   
+   
 
 }
 
@@ -66,19 +72,17 @@ footer {
 }
 
 #kreis {
-    background-color: lightblue;
-    width: 400px;
-    height: 400px;
-    margin: -250px auto auto auto;
-    border-radius: 35%;
+    background: #5a7e64;
+border-radius: 50%;
+height: 900px;
+width: 900px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 0 auto;
+    opacity: 92%;
+    
 }
 
 body {
-
-        background:
-            linear-gradient(-135deg, rgb(34, 76, 152) 10%, transparent),
-            repeating-linear-gradient(45deg, rgba(34, 76, 152, 1) 0%, rgba(31, 48, 94, 0.6) 5%, transparent 5%, transparent 10%),
-            repeating-linear-gradient(-45deg, rgba(34, 76, 152, 0.4) 0%, rgba(31, 48, 94, 0.5) 5%, transparent 5%, transparent 10%);
-        background-color: rgba(34, 76, 152, 0.25);
-
-}
+    background-image: url("bg.png");  
+  }
