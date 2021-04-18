@@ -67,41 +67,22 @@ width: 800px;
 
 .icon {
     
-    display: grid;
+    display:ruby;
     grid-auto-flow:column;
-  
-    
-    margin-left: 10%;
-    margin-top: -11%;
+    margin-left: 40%;
+    margin-top: -10%;
     
     z-index: 1;
     position: absolute;
     color: #FFFFFF;
-    opacity: 100%;
+    opacity: 10%;
     transition: all ease-in-out 0,2s;
 }
 .icon:hover{ 
     transform: translateX(-13px);
 }  
 
-.icon2 {
-    display: grid;
-    grid-auto-flow:column;
-  
-    
-    margin-left: 400px;
-    margin-top: 20px;
-    
-    z-index: 1;
-    position: absolute;
-    color: #FFFFFF;
-    opacity: 100%;
-    transition: all ease-in-out 0,2s;
-}
-.icon2:hover{ 
-    opacity: 70%;
-    transform: translateX(-13px);
-}  
+
 h1 {
     text-decoration: none;
     font-size: 5em;
@@ -257,8 +238,8 @@ h4 {
 
 .container {
     position: relative;
-    margin: auto;
     width: 800px;
+    margin-left: 4%;
 }
 .image {
     margin: auto;
