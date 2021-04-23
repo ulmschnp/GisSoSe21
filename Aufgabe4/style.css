@@ -335,7 +335,7 @@ button {
      }
      .text1{
          font-size: 40px;
-         margin-left: 50%;ss  
+         margin-left: 50%; 
      }
 
      .text2 {
@@ -397,7 +397,7 @@ button {
           margin-left: 14%;
       }
       .nav-list{
-         margin: 80%;
+         margin: auto;
       }
 
     }
