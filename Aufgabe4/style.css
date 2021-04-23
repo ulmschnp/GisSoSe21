@@ -17,7 +17,7 @@ ul {
 
 
 .nav-list {
-    position: fixed;
+    position: sticky;
     
     align-items: center;
     
@@ -241,6 +241,12 @@ h4 {
     width: 800px;
     margin-left: 4%;
 }
+
+.container video {
+    height: auto;
+    width: 800px;
+    margin: auto;
+}
 .image {
     margin: auto;
     display: block;
@@ -321,97 +327,19 @@ button {
     opacity: 40%;
 }
 
-
-/* ----------------------------------------------------- Smartphohne Ansicht --------------------------------------------------------*/
-@media (max-width: 600px ){
-        
-     .icon {
-        margin-left: 15%;
-        margin-top: -10%;
-     }
-     .text1{
-         font-size: 40px;
-         margin-left: 50%;
-         flex: content;
-     }
-     .text2{
-         font-size: 30px;
-         margin-left: 55%;
-         flex-direction: column;
-     }
-     h1{
-         font-size: 25px;
-         margin-left: 5%;
-         margin-top: 10%;
-         flex-direction: column;
-     }
-     h2{
-         font-size: 20px;
-         margin-bottom: 5%;
-         margin-top: 25%;
-         margin-left: 17%;
-     }
-     h3{
-         color: red;
-     }
-     .cons a {
-         margin-bottom: -40%;
-         font-size: 50px;
-         margin-left:40%;
-     }
-     .kreis{
-        height: 600px;
-        width: 600px;
-     }
-     .container .video{
-         width: 350px;
-         height: auto;
-         margin-left: 17%;
-     }
-     .container .image{
-        width: 350px;
-        height: auto;
-        margin-left: 17%;
-    }
-    .overlay {
-        width: 19%;
-        height: 10%;
-        font-size: 10px;
-        padding: 13%;
-        text-align:left;
-        margin-left: 17%;
-        font-size: 30px;
-      }
-      .cons2 a {
-          margin-left: 20%;
-          font-size: 30px;
-      }
-      .container2 li {
-          margin-left: 16%;
-      }
-      .overlay2{
-          margin-left: 14%;
-      }
-      .nav-list{
-          margin-top: -5%;
-          margin-left: 50%;
-      }
-
-}
-}
 /*-----------------------------------------Tablet Ansicht-------------------------------------------*/
-@media (min-width: 600px ){     /* Leider nicht für tablet hinbekommen..
-    .icon{
-        margin-left: 120%;
-        margin-top: -10%;
+@media (max-width: 1024px) { 
+    .icon img{
+        margin: auto;
+        
      }
      .text1{
          font-size: 40px;
-         margin-left: 50%;
-         flex: content;
+         margin-left: 50%;ss  
      }
-     .text2{
-         font-size: 30px;
+
+     .text2 {
+         font-size:30px;
          margin-left: 55%;
          flex-direction: column;
      }
@@ -450,7 +378,7 @@ button {
         margin-left: 17%;
     }
     .overlay {
-        width: 19%;
+        width: 190%;
         height: 10%;
         font-size: 10px;
         padding: 13%;
@@ -469,8 +397,92 @@ button {
           margin-left: 14%;
       }
       .nav-list{
-          margin-top: -5%;
-          margin-left: 50%;
+         margin: 80%;
+      }
+
+    }
+
+/* ----------------------------------------------------- Smartphohne Ansicht --------------------------------------------------------*/
+@media (max-width: 600px ){
+        
+     .icon {
+        margin-left: 15%;
+        margin-top: -10%;
+     }
+     .icon img {
+         height: 20%;
+         width: 20%;
+     }
+     .text1{
+         font-size: 40px;
+         margin-left: 50%;
+         flex: content;
+     }
+     .text2{
+         font-size: 30px;
+         margin-left: 55%;
+         flex-direction: column;
+     }
+     h1{
+         font-size: 25px;
+         margin-left: 5%;
+         margin-top: 10%;
+         flex-direction: column;
+     }
+     h2{
+         font-size: 20px;
+         margin-bottom: 5%;
+         margin-top: 25%;
+         margin-left: 10%;
+     }
+     h3{
+         color: red;
+     }
+     .cons a {
+         margin-bottom: -40%;
+         font-size: 50px;
+         margin-left:40%;
+     }
+     .kreis{
+        height: 600px;
+        width: 600px;
+     }
+     .container .video{
+         width: 350px;
+         height: auto;
+         margin-left: 10%;
+     }
+     .container .image{
+        width: 350px;
+        height: auto;
+        margin-left: 10%;
+    }
+    .overlay {
+        width: 19%;
+        height: 10%;
+        font-size: 10px;
+        padding: 13%;
+        text-align:left;
+        margin-left: 17%;
+        font-size: 30px;
+      }
+      .cons2 a {
+          margin-left: 10%;
+          font-size: 30px;
+      }
+      .container2 li {
+          margin-left: 16%;
+      }
+      .container2 audio{
+          margin-left: 10%;
+      }
+      .overlay2{
+          margin-left: 14%;
+      }
+      .nav-list{
+          margin: auto;
+          
       }
 
 }
+
